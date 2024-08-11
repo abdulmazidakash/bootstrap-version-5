@@ -7,8 +7,29 @@
 	font-weight: bold;
 } */
 
-div{
+/* container class style  */
+/* div{
 	background: var(--bs-info);
 	height: 100px;
 	margin-bottom: 20px;
+} */
+
+
+/* grid class style here  */
+/* .row{
+	margin-bottom: 20px;
 }
+.row div div{
+	background: #82ccdd;
+	border: 5px solid teal;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.row .row div div{
+	background: #dd9f82c4;
+	border: 5px solid rgb(128, 0, 60);
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+} */
