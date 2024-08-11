@@ -1,8 +1,14 @@
-.child{
+/* .child{
 	border: 5px solid var(--bs-teal);
 	height: 100px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
+} */
+
+div{
+	background: var(--bs-info);
+	height: 100px;
+	margin-bottom: 20px;
 }
