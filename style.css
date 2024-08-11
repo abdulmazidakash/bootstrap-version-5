@@ -35,13 +35,29 @@
 } */
 
 /* bootstrap column style here  */
-.row{
+/* .row{
 	margin-bottom: 20px;
 	height: 200px;
 	background: #fab1a0;
 
 }
 .row div{
+	background: #d63031;
+	border: 2px solid #fd79a8;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+} */
+
+/* bootstrap gater style here  */
+
+.row{
+	margin-bottom: 20px;
+	height: 200px;
+	background: #fab1a0;
+
+}
+.row div div{
 	background: #d63031;
 	border: 2px solid #fd79a8;
 	color: #fff;
