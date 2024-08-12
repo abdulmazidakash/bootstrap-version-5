@@ -1,27 +1,800 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+	<nav class="navbar navbar-expand-md navbar-light bg-success sticky">
+		<div class="container-fluid">
+			<a class="navbar-brand align-items-center" href=""><img src="login-form-tailwind-logo.png" alt="" width="40" height="40">Logo</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="mainMenu">
+				<ul class="navbar-nav me-auto ">
+					<li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="">About</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"  href="">Media</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+							<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+							<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+							<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+						</ul>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Service</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+				</ul>
+			</div>
+			<form action="" class="d-flex">
+				<input type="search" name="" id="" placeholder="Search" class="form-control me-2">
+				<button class="btn btn-danger">Search</button>
+			</form>
+		</div>
+	   </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<div>
+	<h2>Bootstrap Breakpoint</h2>
+	<ul>
+		<li>x small - < 576px</li>
+		<li>Small - </li>
+		<li>Medium</li>
+		<li>Large</li>
+		<li>Extra Large</li>
+		<li>Extra Extra Large</li>
+	</ul>
+</div>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+ 
+	<div class="container">
+		<div class="row">
+			<div class="col-xxl-3">
+				<div class="child">xxl</div>
+			</div>
+			<div class="col-xxl-3">
+				<div class="child">xxl</div>
+			</div>
+			<div class="col-xxl-3">
+				<div class="child">xxl</div>
+			</div>
+			<div class="col-xxl-3">
+				<div class="child">xxl</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3">
+				<div class="child">xl</div>
+			</div>
+			<div class="col-xl-3">
+				<div class="child">xl</div>
+			</div>
+			<div class="col-xl-3">
+				<div class="child">xl</div>
+			</div>
+			<div class="col-xl-3">
+				<div class="child">xl</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="child">lg</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="child">lg</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="child">lg</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="child">lg</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="child">md</div>
+			</div>
+			<div class="col-md-3">
+				<div class="child">md</div>
+			</div>
+			<div class="col-md-3">
+				<div class="child">md</div>
+			</div>
+			<div class="col-md-3">
+				<div class="child">md</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="child">sm</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="child">sm</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="child">sm</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="child">sm</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- All About Container:  container breakpoints use most time.  -->
+	 <div class="container"></div>
+	<div class="container-fluid"></div>
+	<div class="container-{breakpoints}"></div>
+
+
+	<!-- bootstrap grid container  -->
+	 <div class="container">
+		<div class="row">
+			<div class="col">
+				<div>Some Text</div>
+			</div>
+			<div class="col-5">
+				<div>Some Text</div>
+			</div>
+			<div class="col">
+				<div>Some Text</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div>Some Text</div>
+			</div>
+			<div class="col-md-4">
+				<div>Some Text</div>
+			</div>
+			<div class="col-md-5">
+				<div>Some Text</div>
+			</div>
+		</div>
+		<div class="row justify-content-lg-center">
+			<div class="col col-lg-2">
+				<div>Some Text</div>
+			</div>
+			<div class="col col-md-auto">
+				<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+			</div>
+			<div class="col col-lg-2">
+				<div>Some Text</div>
+			</div>
+		</div>
+	</div>
+
+	 <div class="container">
+		<div class="row row-cols-2">
+			<div class="col">
+				<div>Some Text</div>
+			</div>
+			<div class="col">
+				<div>Some Text</div>
+			</div>
+			<div class="col-6">
+				<div>Some Text</div>
+			</div>
+			<div class="col-6">
+				<div>Some Text</div>
+			</div>
+			<div class="col">
+				<div>Some Text</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- bootstrap nested grid style  -->
+
+	 <div class="container">
+		<div class="row">
+			<div class="col">
+				<div>Some Text</div>
+			</div>
+			<div class="col">
+				<div class="row">
+					<div class="col-md-6">
+						<div>Some Text</div>
+					</div>
+					<div class="col-md-6">
+						<div>Some Text</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+
+	<!-- bootstrap column learning here  -->
+		<div class="container">
+			<div class="row justify-content-start">
+				<div class="col-3">
+					Some Text 1
+				</div>
+				<div class="col-2">
+					Some Text 2
+				</div>
+				<div class="col-3">
+					Some Text 3
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col">
+					Some Text 1
+				</div>
+				<div class="col">
+					Some Text 2
+				</div>
+				<div class="col">
+					Some Text 3
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row justify-content-around">
+				<div class="col-3">
+					Some Text 1
+				</div>
+				<div class="col-2">
+					Some Text 2
+				</div>
+				<div class="col-3">
+					Some Text 3
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row ">
+				<div class="col align-self-start">
+					Some Text 1
+				</div>
+				<div class="col align-self-center">
+					Some Text 2
+				</div>
+				<div class="col align-self-end">
+					Some Text 3
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row justify-content-around">
+				<div class="col-3 order-3">
+					Some Text 1
+				</div>
+				<div class="col-3 order-2">
+					Some Text 2
+				</div>
+				<div class="w-100"></div>
+				<div class="col-3 order-first">
+					Some Text 3
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-3 offset-4 ">Some Text - 1</div>
+				<div class="col-3 ms-auto">Some Text - 2</div>
+				<div class="col-4">Some Text - 3</div>
+			</div>
+		</div>
+
+		<!-- bootstrap gater container here  -->
+		 
+
+		<div class="container">
+
+			<div class="row g-0 gx-4 gy-5">
+				<div class="col-md-4">
+					<div class="child"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="child"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="child"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="child"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="child"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="child p-4"></div>
+				</div>
+			</div>
+		</div>
+	
+	
+		<!-- reboot live server  -->
+		 <h1>Farhan Fahim</h1>
+		 <ul>
+			<li>lorem5</li>
+			<li>lorem5</li>
+			<li>lorem5</li>
+			<li>lorem5</li>
+			<li>lorem5</li>
+		 </ul>
+	
+		<!-- heading tag difference here  -->
+
+		 <div class="container">
+			<div class="row">
+				<div class="col-md-12"></div>
+				<h1>This is Title</h1>
+				<h2>This is Title</h2>
+				<h3>This is Title</h3>
+				<h4>This is Title</h4>
+				<h5 class="display-6">This is Title</h5>
+				<h6 class="h1">This is Title</h6>
+
+				<p class="lead text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus harum officiis minus earum incidunt illo fugit dolores dicta animi illum recusandae dolor possimus quidem, officia quam inventore saepe ab modi.</p>
+			</div>
+		</div>
+
+
+		<!-- bootstrap table container  -->
+		 <div class="table-responsive text-center">
+			<table class="table table-dark table-striped table-hover table-bordered border-danger">
+				<thead class="table-primary">
+					<tr>
+						<th>#</th>
+						<th>Name</th>
+						<th>Phone</th>
+						<th>Email</th>
+						<th>City</th>
+						<th>Country</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>Fahim</td>
+						<td>017 000 000</td>
+						<td>info@yout.com</td>
+						<td>Dhaka</td>
+						<td>Bangladesh</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Farhan</td>
+						<td>017 000 000</td>
+						<td>info@yout.com</td>
+						<td>Dhaka</td>
+						<td>Bangladesh</td>
+					</tr>
+					<tr class="table-active">
+						<td>03</td>
+						<td>Fahim</td>
+						<td>017 000 000</td>
+						<td>info@yout.com</td>
+						<td>Dhaka</td>
+						<td>Bangladesh</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Farhan</td>
+						<td>017 000 000</td>
+						<td>info@yout.com</td>
+						<td>Dhaka</td>
+						<td>Bangladesh</td>
+					</tr>
+					<tr>
+						<td>01</td>
+						<td>Fahim</td>
+						<td>017 000 000</td>
+						<td>info@yout.com</td>
+						<td>Dhaka</td>
+						<td>Bangladesh</td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>Akash</td>
+						<td>017 000 000</td>
+						<td>info@yout.com</td>
+						<td>Dhaka</td>
+						<td>Bangladesh</td>
+					</tr>
+				</tbody>
+				<tfoot class="table-warning">
+					<tr>
+						<th>Footer</th>
+						<th>Footer</th>
+						<th>Footer</th>
+						<th>Footer</th>
+						<th>Footer</th>
+						<th>Footer</th>
+					</tr>
+				</tfoot>
+			 </table>
+		</div>
+		
+
+		<!-- bootstrap form here  -->
+
+		 <form action="" class="m-2 p-3 border border-warning">
+			<div class="mb-3">
+				<label for="">Name</label>
+				<input type="text" name="" id="" placeholder="Enter your name" class="form-control">
+			</div>
+			<div class="mb-3">
+				<label for="">Email</label>
+				<input type="Email" name="" id="" placeholder="Enter your email" class="form-control form-control-sm required">
+				<div class="form-text">We'll never share your email with anyone else.</div>
+			</div>
+			<div class="mb-3">
+				<label for="">ColorPicker</label>
+				<input type="color" name="" id="" class="form-control form-control-color" value="#ff0000">
+			</div>
+			<div class="mb-3">
+				<select name="" id="" class="form-select">
+					<option value="1">one</option>
+					<option value="2">one</option>
+					<option value="4">one</option>
+				</select>
+			</div>
+			<div class="mb-3">
+				<label for="">Textarea</label>
+				<textarea name="" id="" cols="30" rows="10" placeholder="message" class="form-control"></textarea>
+				
+			</div>
+			<button class="btn btn-warning">Submit</button>
+		</form>
+		<form action="" class="m-2 p-3 border border-warning">
+			<div class="mb-3">
+				<label for="">Email</label>
+				<input type="Email" name="" id="" placeholder="Enter your email" class="form-control required">
+				<div class="form-text">We'll never share your email with anyone else.</div>
+			</div>
+			<div class="mb-3">
+				<label for="">Password</label>
+				<input type="password" name="" id="" class="form-control" placeholder="Enter your Password">
+				
+			</div>
+			<div class="mb-3 form-check">
+				<input type="checkbox" name="" id="" class="form-check-input">
+				<label for="">Password</label>
+			</div>
+			<div class="mb-3 form-switch">
+				<input type="checkbox" name="" id="" class="form-check-input">
+				<label for="">Checkbox</label>
+			</div>
+			<div class="mb-3 form-radio">
+				<input type="radio" name="" id="" class="form-radio-input">
+				<label for="">Checkbox</label>
+			</div>
+			<div class="mb-3">
+				<input type="range" name="" id="" class="form-range" min="0" max="10">
+				<label for="">Checkbox</label>
+			</div>
+			<button class="btn btn-primary">Submit</button>
+		</form>
+		
+
+		<!-- bootstrap accordion here  -->
+		<div class="accordion">
+			<div class="accordion-item">
+				<h2 class="accordion-button" data-bs-target="#childOne" data-bs-toggle="collapse">Accordion Heading</h2>
+				<div id="childOne" class="accordion-collapse collapse show">
+					<div class="accordion-body">
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptatibus inventore eum magni, nisi rerum cupiditate repellat quasi et incidunt, dignissimos architecto suscipit quam. Beatae quaerat ipsam deserunt, ex natus asperiores repellat nam laborum eum sed dicta excepturi, itaque, quos repudiandae fugiat qui fuga rerum quisquam corrupti. Culpa ratione sequi tempora eaque expedita tenetur, et esse voluptatum atque incidunt magni officiis autem quaerat quasi quibusdam. Doloribus dolor voluptas, officiis laborum sapiente magnam culpa placeat a tenetur laudantium voluptates ad vel.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-button" data-bs-target="#childTwo" data-bs-toggle="collapse">Accordion Heading</h2>
+				<div id="childTwo" class="accordion-collapse collapse show">
+					<div class="accordion-body">
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptatibus inventore eum magni, nisi rerum cupiditate repellat quasi et incidunt, dignissimos architecto suscipit quam. Beatae quaerat ipsam deserunt, ex natus asperiores repellat nam laborum eum sed dicta excepturi, itaque, quos repudiandae fugiat qui fuga rerum quisquam corrupti. Culpa ratione sequi tempora eaque expedita tenetur, et esse voluptatum atque incidunt magni officiis autem quaerat quasi quibusdam. Doloribus dolor voluptas, officiis laborum sapiente magnam culpa placeat a tenetur laudantium voluptates ad vel.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-button" data-bs-target="#childThree" data-bs-toggle="collapse">Accordion Heading</h2>
+				<div id="childThree" class="accordion-collapse collapse show">
+					<div class="accordion-body">
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptatibus inventore eum magni, nisi rerum cupiditate repellat quasi et incidunt, dignissimos architecto suscipit quam. Beatae quaerat ipsam deserunt, ex natus asperiores repellat nam laborum eum sed dicta excepturi, itaque, quos repudiandae fugiat qui fuga rerum quisquam corrupti. Culpa ratione sequi tempora eaque expedita tenetur, et esse voluptatum atque incidunt magni officiis autem quaerat quasi quibusdam. Doloribus dolor voluptas, officiis laborum sapiente magnam culpa placeat a tenetur laudantium voluptates ad vel.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- alert container here  -->
+		 <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="alert alert-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+							<path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.15.15 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.2.2 0 0 1-.054.06.1.1 0 0 1-.066.017H1.146a.1.1 0 0 1-.066-.017.2.2 0 0 1-.054-.06.18.18 0 0 1 .002-.183L7.884 2.073a.15.15 0 0 1 .054-.057m1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767z"/>
+							<path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
+						  </svg>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="alert-link">Laborum nobis voluptate</a>  animi facilis reiciendis at amet, praesentium iste officiis, vel beatae debitis tempora nesciunt architecto enim nam? Molestiae, quam quae.</p>
+					</div>
+					<div class="alert alert-warning">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+							<path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.15.15 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.2.2 0 0 1-.054.06.1.1 0 0 1-.066.017H1.146a.1.1 0 0 1-.066-.017.2.2 0 0 1-.054-.06.18.18 0 0 1 .002-.183L7.884 2.073a.15.15 0 0 1 .054-.057m1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767z"/>
+							<path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
+						  </svg>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" class="alert-link">Laborum nobis voluptate</a> animi facilis reiciendis at amet, praesentium iste officiis, vel beatae debitis tempora nesciunt architecto enim nam? Molestiae, quam quae.</p>
+						<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+					</div>
+				</div>
+			</div>
+		 </div>
+
+		 <!-- bootstrap breadcrumbs here  -->
+		  <div class="container">
+			<div class="row">
+				<div class="col-md-12 mt-5">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item"><a href="#">category</a></li>
+						<li class="breadcrumb-item active" >page</li>
+					</ol>
+					<h1>This is new title <span class="badge bg-primary">new</span></h1>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error tempore illum voluptatibus voluptatum iste laborum esse maiores ab quod id, deleniti ipsam nostrum repellendus eveniet! Labore ab quae dolorum nihil laboriosam soluta ullam at odio commodi rem dolore delectus quas dicta, quidem, cum voluptatum nesciunt, reprehenderit fuga. Asperiores aliquid saepe quae, doloribus ducimus facere unde consectetur reprehenderit exercitationem quas eveniet, sit, quo quaerat officiis tempore. Blanditiis totam molestiae et reprehenderit esse. Corporis placeat unde rerum ipsum quae a. Illo culpa voluptates dicta expedita ratione incidunt alias dolorem, similique vel dolores dolor laboriosam saepe suscipit ipsa in quidem ea blanditiis eaque?</p>
+					<button class="btn btn-warning">Learn More</button>
+					<button class="btn btn-warning">Notification <span class="badge bg-dark">09</span></button>
+					<button class="btn btn-outline-danger btn-sm">Notification <span class="badge bg-dark">09</span></button>
+				</div>
+			</div>
+		  </div>
+		
+
+		  <!-- bootstrap card here  -->
+		   <div class="container">
+			<div class="row">
+				<div class="col-md-4 mt-5">
+					<div class="card">
+						<div class="card-header">Header</div>
+						<div class="card-body">
+							<h2 class="card-title">This is title</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, consequuntur ex voluptas assumenda illum facere ratione velit tempore quam delectus dolorum officia deserunt quisquam ea, dignissimos quia quas explicabo est hic. Doloremque, iste dolores repellendus voluptatum culpa voluptatem atque vero eligendi. Ratione, excepturi porro alias reiciendis nam rerum sapiente modi!</p>
+							<p class="text-muted">Last update 3 minutes ago</p>
+							<button class="btn btn-primary">Read More</button>
+						</div>
+						<div class="card-footer">Footer</div>
+					</div>
+				</div>
+				<div class="col-md-4 mt-5">
+					<div class="card bg-transparent border-danger h-100">
+						
+						<div class="card-body">
+							<h2 class="card-title">This is title</h2>
+							<ul>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+							</ul>
+							<p class="text-muted">Last update 3 minutes ago</p>
+							
+						</div>
+						<div class="card-body">
+							<a href="#">Card link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mt-5 mb-5">
+					<div class="card bg-warning text-white h-100">
+						
+						<div class="card-body">
+							<h2 class="card-title">This is title</h2>
+							<ul>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+							</ul>
+							<p class="text-muted">Last update 3 minutes ago</p>
+							
+						</div>
+						<div class="card-body">
+							<a href="#">Card link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		   </div>
+		   <div class="container">
+			<div class="row">
+				<div class="col-md-4 mt-5">
+					<div class="card h-100">
+						<img class="card-img" src="zoom-bg.jfif" alt="">
+						<div class="card-body">
+							<h2 class="card-title">This is title</h2>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, consequuntur ex voluptas assumenda illum facere ratione velit tempore quam delectus dolorum officia deserunt quisquam ea, dignissimos quia quas explicabo est hic. Doloremque, iste dolores repellendus voluptatum culpa voluptatem atque vero eligendi. Ratione, excepturi porro alias reiciendis nam rerum sapiente modi!</p>
+							<p class="text-muted">Last update 3 minutes ago</p>
+							<button class="btn btn-primary">Read More</button>
+						</div>
+						<div class="card-footer">Footer</div>
+					</div>
+				</div>
+				<div class="col-md-4 mt-5">
+					<div class="card bg-transparent border-danger h-100">
+						<img class="card-img" src="zoom-bg.jfif" alt="">
+						<div class="card-img-overlay text-white">
+							<h2 class="card-title">This is title</h2>
+							<ul>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+							</ul>
+							<p class="text-muted">Last update 3 minutes ago</p>
+							
+						</div>
+						<div class="card-body">
+							<a href="#">Card link</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mt-5 mb-5">
+					<div class="card bg-warning text-white h-100">
+						
+						<div class="card-body">
+							<h2 class="card-title">This is title</h2>
+							<ul>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+								<li class="list-group-item">Child list</li>
+							</ul>
+							<p class="text-muted">Last update 3 minutes ago</p>
+							
+						</div>
+						<div class="card-body">
+							<a href="#">Card link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		   </div>
+		
+		   <div id="slider" class="carousel carousel-fade  slide" data-bs-ride="carousel" data-bg-touch="true" >
+			<div class="carousel-inner">
+				<div class="carousel-item active"><img class="d-block w-100" src="bootstrap-background.jpg" alt="">
+				<div class="carousel-caption">
+					<h4>This is title</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, omnis reiciendis vero minus hic odio.</p>
+				</div>
+				</div>
+				<div class="carousel-item active"><img class="d-block w-100" src="bootstrap-background-3.jpg" alt=""><div class="carousel-caption">
+					<h4>This is title</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, omnis reiciendis vero minus hic odio.</p>
+				</div></div>
+				<div class="carousel-item active"><img class="d-block w-100" src="bootstrap-background-1.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>This is title</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, omnis reiciendis vero minus hic odio.</p>
+					</div>
+				</div>
+			
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+			
+			<button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+			
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+				<button type="button" data-bs-target="#slider" data-bs-slide-to="1" active></button>
+				<button type="button" data-bs-target="#slider" data-bs-slide-to="2" active></button>
+			</div>
+		   </div>
+		
+
+		   <nav class="navbar navbar-expand-md navbar-light bg-success sticky">
+			<div class="container-fluid">
+				<a class="navbar-brand align-items-center" href=""><img src="login-form-tailwind-logo.png" alt="" width="40" height="40">Logo</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="mainMenu">
+					<ul class="navbar-nav me-auto ">
+						<li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="">About</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"  href="">Media</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="">Projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+					</ul>
+				</div>
+				<form action="" class="d-flex">
+					<input type="search" name="" id="" placeholder="Search" class="form-control me-2">
+					<button class="btn btn-danger">Search</button>
+				</form>
+			</div>
+		   </nav>
+		   Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam earum illum est magnam quo minus rerum. Repellat ea minima est in nostrum qui rem, illum dolore unde voluptas reiciendis quis nobis. Qui unde doloremque reprehenderit, illo alias beatae cupiditate explicabo deserunt aliquam. Atque explicabo sint maxime sapiente similique cumque tempora voluptas deserunt vel molestiae corporis pariatur, quam culpa esse velit magnam ipsam. Quasi quidem debitis itaque dolores! Sed minima neque voluptatibus perspiciatis, velit vel rem sunt fugiat delectus magni eligendi doloremque alias possimus illo placeat ducimus sit aliquid dolores voluptatum. Ea sed esse iure vitae. Libero voluptates neque beatae voluptatum repellat molestias repudiandae dignissimos, vero praesentium harum doloremque magni minus fugit accusamus debitis odio itaque ab, cum explicabo maxime eius. Ducimus quidem fuga eos animi perspiciatis consectetur iusto quo officiis libero consequuntur sapiente blanditiis qui voluptatum nisi a, magni impedit et fugit tenetur laboriosam. Iure assumenda aperiam sequi fugiat culpa maiores in veniam quae similique quod quam minima animi magni possimus consequatur, consequuntur necessitatibus ea. Vel iste dolorem tempore excepturi dicta? Odit illum nulla nam corrupti velit, molestiae totam repellat. Aliquam eum repellat aperiam, exercitationem cum doloribus corrupti ullam tenetur corporis iste veniam sapiente at nihil molestiae, expedita distinctio. Corrupti quasi vitae, labore excepturi, eligendi veritatis iure perferendis, reiciendis maxime ab vel voluptate sapiente esse dolor sequi quis ducimus ex at? Voluptatibus beatae laboriosam molestias dicta velit nam totam praesentium soluta et excepturi laudantium vero, veritatis placeat, exercitationem modi necessitatibus reprehenderit. Magni, inventore. Ipsum nihil aliquid, delectus a nostrum harum magni expedita quam quo nisi impedit dicta voluptatibus aspernatur autem atque! Doloribus aliquam adipisci, illum iusto dolorem est ipsam iure necessitatibus nostrum fugiat velit dolore quibusdam itaque facere tempora eaque asperiores, ad neque expedita blanditiis! 
+
+		   bootstrap pagination container
+
+		   <nav class="my-4">
+			<ul class="pagination justify-content-center pagination-lg">
+				<li class="page-item"><a class="page-link bg-success text-white" href="">prev</a></li>
+				<li class="page-item"><a class="page-link" href="">1</a></li>
+				<li class="page-item"><a class="page-link" href="">2</a></li>
+				<li class="page-item"><a class="page-link" href="">3</a></li>
+				<li class="page-item"><a class="page-link" href="">4</a></li>
+				<li class="page-item"><a class="page-link bg-success text-white" href="">Next</a></li>
+			</ul>
+		   </nav>
+
+		   Consequatur officiis distinctio voluptate eum? Libero eos eveniet laudantium inventore quibusdam? Impedit, commodi nemo explicabo, autem placeat necessitatibus mollitia dolor alias aspernatur distinctio itaque labore blanditiis ducimus est totam adipisci ratione! Numquam perspiciatis, eos libero inventore minus corporis deleniti illum ea dolorum perferendis aliquam est dolore omnis sed voluptatum magnam eaque cum architecto quos? Accusamus similique debitis dolore aperiam, saepe molestias voluptatum mollitia ab earum quidem pariatur vel blanditiis magni sint distinctio dolorum deleniti illum a id accusantium. Non consequuntur inventore et obcaecati ex, possimus eveniet. Mollitia ad exercitationem neque, id velit voluptatibus voluptates ipsa deleniti a aliquid excepturi? Voluptas nam itaque aperiam non incidunt nobis totam quam quibusdam, aspernatur accusantium! Illum commodi nulla aliquid amet recusandae debitis cum enim illo. Minus quia voluptates, numquam fugiat blanditiis eligendi doloremque quas temporibus modi enim sint similique, non illum saepe ipsum nisi impedit eum sit veritatis perspiciatis? Odio eos veniam ipsa quasi! Quaerat dolorem accusantium rem eius porro delectus quisquam. Non doloribus exercitationem laborum ullam maiores amet, repellat eligendi minima laudantium illum. Laudantium, cum dolore aut voluptatum alias dolorem earum optio provident molestiae, numquam ad? Autem provident modi assumenda atque facilis! Cupiditate similique consectetur, illo incidunt aliquam ducimus, fugit consequuntur ipsa nulla aliquid repudiandae facilis earum saepe soluta, blanditiis alias dolorem nisi atque iusto quae. Doloribus, hic?
+
+		   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky">
+			<div class="container-fluid">
+				<a class="navbar-brand" href=""><img src="login-form-tailwind-logo.png" alt="" width="40" height="40">Logo</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="main_menu">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="">About</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"  href="">Media</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="">Projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="">Service</a></li>
+						<li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+					</ul>
+				</div>
+				<form action="" class="d-flex">
+					<input type="search" name="" id="" placeholder="Search" class="form-control me-2">
+					<button class="btn btn-danger">Search</button>
+				</form>
+			</div>
+		   </nav>
+		   
+		   <!-- bootstrap form container here  -->
+
+		   <div id="form" class="d-flex">
+			<form action="" class="form-login text-center">
+				<h2>User Login</h2>
+				<input type="email" name="" id="" placeholder="enter your email address" class="form-control mb-3 required">
+				<input type="password" name="" id="" placeholder="enter your password" class="form-control mb-3">
+				<div class="checkbox mb-3">
+					<label for="">
+						<input type="checkbox" name="" id="">Rememeber Me
+					</label>
+				</div>
+				<button class="btn btn-primary w-100" type="submit">Login</button>
+			   </form>
+		   </div>
+		  
+		   <img style="background-color: crimson;" width="40" src="node_modules/bootstrap-icons/icons/telegram.svg" alt="">
+
+		   <ul>
+			<li><a href=""><i class="bi bi-facebook"></i></a></li>
+		   </ul>
+		 
+		   <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
