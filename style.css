@@ -1,22 +1,22 @@
-/* .child{
+ .child{
 	border: 5px solid var(--bs-teal);
 	height: 100px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
-} */
+} 
 
 /* container class style  */
-/* div{
+ div{
 	background: var(--bs-info);
 	height: 100px;
 	margin-bottom: 20px;
-} */
+} 
 
 
 /* grid class style here  */
-/* .row{
+ .row{
 	margin-bottom: 20px;
 }
 .row div div{
@@ -32,10 +32,10 @@
 	padding: 20px;
 	text-align: center;
 	margin-bottom: 20px;
-} */
+} 
 
 /* bootstrap column style here  */
-/* .row{
+ .row{
 	margin-bottom: 20px;
 	height: 200px;
 	background: #fab1a0;
@@ -47,11 +47,11 @@
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-} */
+} 
 
 /* bootstrap gater style here  */
 
-/* .row{
+.row{
 	margin-bottom: 20px;
 	height: 200px;
 	background: #fab1a0;
@@ -63,7 +63,7 @@
 	color: #fff;
 	padding: 20px;
 	text-align: center;
-} */
+}
 
 /* form container style here  */
 
